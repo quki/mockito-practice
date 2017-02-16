@@ -12,6 +12,7 @@ public class ConferenceDao {
 		ZonedDateTime end = ZonedDateTime.of(2016, 10, 5, 18, 0, 0, 0, ZoneId.of("KST"));
 		
 		// release 1.0.0
+		// update
 		return new RegPeriod(start, end);
 	}
 
